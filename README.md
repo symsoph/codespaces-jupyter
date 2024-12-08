@@ -1,7 +1,18 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# My-eCornell-Portfolio
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+Unit 8
+- Final Assignment - Define ML Problem and Build Own Model(s)
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Background
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+For the last assignment as part of the Intro to Machine Learning Course provided by the Break Through Tech program, I was tasked to define my own ML problem utilized course-approved datasets.  
+
+Initially, I was inspired by our `Neural Network Sentiment Analysis` notebook, so I wanted to create a neural network that could predict the author based on a dataset of book reviews.  The bookReviews dataset had to be reoganized and cleaned for proper author and book columns.  I realized this was time-consuming. I had trouble verifying if a reader was referring to a book series or if they even mentioned a book title.  Essentially, I had no idea which authors and which books they were referring to.  
+
+I had to pivot, so I changed my plan and defined a new problem: to predict if an individual's income was greater than 50k, given a variety of personal data from the USA census.  
+
+## Viewing the Project
+
+In the **Unit 8 folder**, `Lab_DefineAndSolveMLProblem.ipynb` contains my process and analysis, or free feel to view the `pdf` version under a similar name. 
+
+You can `clone` this repo to run the notebook yourself to see the models, 
